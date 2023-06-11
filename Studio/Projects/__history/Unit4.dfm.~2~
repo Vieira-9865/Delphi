@@ -1,0 +1,92 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  ClientHeight = 442
+  ClientWidth = 714
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -29
+  Font.Name = 'Roboto'
+  Font.Style = [fsBold]
+  TextHeight = 35
+  object TPanel
+    Left = 0
+    Top = 0
+    Width = 714
+    Height = 105
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = -8
+    ExplicitTop = 28
+    object TituloMenu: TLabel
+      Left = 32
+      Top = 27
+      Width = 262
+      Height = 40
+      Caption = 'Cadastro de Clientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -29
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+  object Button1: TButton
+    Left = 364
+    Top = 29
+    Width = 61
+    Height = 54
+    Caption = 'Novo'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 445
+    Top = 29
+    Width = 60
+    Height = 54
+    Caption = 'Salvar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 526
+    Top = 29
+    Width = 59
+    Height = 54
+    Caption = 'Cancelar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 604
+    Top = 29
+    Width = 61
+    Height = 54
+    Caption = 'Excluir'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Roboto'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+end

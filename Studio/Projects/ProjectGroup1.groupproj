@@ -1,0 +1,96 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2FEF5CD7-0C5F-4D27-A937-B87FDD314D5D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="ComponentesContainer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Primeiro_Sistema.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CadastroLivro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Menu.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TelaCadastroCompleta.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Agenda_Contatos.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ComponentesContainer">
+        <MSBuild Projects="ComponentesContainer.dproj"/>
+    </Target>
+    <Target Name="ComponentesContainer:Clean">
+        <MSBuild Projects="ComponentesContainer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ComponentesContainer:Make">
+        <MSBuild Projects="ComponentesContainer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Primeiro_Sistema">
+        <MSBuild Projects="Primeiro_Sistema.dproj"/>
+    </Target>
+    <Target Name="Primeiro_Sistema:Clean">
+        <MSBuild Projects="Primeiro_Sistema.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Primeiro_Sistema:Make">
+        <MSBuild Projects="Primeiro_Sistema.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CadastroLivro">
+        <MSBuild Projects="CadastroLivro.dproj"/>
+    </Target>
+    <Target Name="CadastroLivro:Clean">
+        <MSBuild Projects="CadastroLivro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CadastroLivro:Make">
+        <MSBuild Projects="CadastroLivro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Menu">
+        <MSBuild Projects="Menu.dproj"/>
+    </Target>
+    <Target Name="Menu:Clean">
+        <MSBuild Projects="Menu.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Menu:Make">
+        <MSBuild Projects="Menu.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TelaCadastroCompleta">
+        <MSBuild Projects="TelaCadastroCompleta.dproj"/>
+    </Target>
+    <Target Name="TelaCadastroCompleta:Clean">
+        <MSBuild Projects="TelaCadastroCompleta.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TelaCadastroCompleta:Make">
+        <MSBuild Projects="TelaCadastroCompleta.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Agenda_Contatos">
+        <MSBuild Projects="Agenda_Contatos.dproj"/>
+    </Target>
+    <Target Name="Agenda_Contatos:Clean">
+        <MSBuild Projects="Agenda_Contatos.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Agenda_Contatos:Make">
+        <MSBuild Projects="Agenda_Contatos.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ComponentesContainer;Primeiro_Sistema;CadastroLivro;Menu;TelaCadastroCompleta;Agenda_Contatos"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ComponentesContainer:Clean;Primeiro_Sistema:Clean;CadastroLivro:Clean;Menu:Clean;TelaCadastroCompleta:Clean;Agenda_Contatos:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ComponentesContainer:Make;Primeiro_Sistema:Make;CadastroLivro:Make;Menu:Make;TelaCadastroCompleta:Make;Agenda_Contatos:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

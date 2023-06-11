@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/10 10:35:01.296,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/10 10:35:14.526,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Agenda_Contatos.dproj=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/06/10 10:35:46.285,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitPrincipall.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2023/06/10 10:35:46.285,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitPrincipall.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/10 10:35:55.523,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/10 10:36:07.488,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitDMM.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2023/06/10 10:36:07.488,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitDMM.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/10 14:07:15.987,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Agenda_Contatos.dproj=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Agenda_Contatos.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

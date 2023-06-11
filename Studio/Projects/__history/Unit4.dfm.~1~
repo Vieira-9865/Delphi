@@ -1,0 +1,35 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  ClientHeight = 442
+  ClientWidth = 714
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -29
+  Font.Name = 'Roboto'
+  Font.Style = [fsBold]
+  TextHeight = 35
+  object TPanel
+    Left = 0
+    Top = 0
+    Width = 714
+    Height = 97
+    Align = alTop
+    TabOrder = 0
+    ExplicitWidth = 628
+    object TituloMenu: TLabel
+      Left = 32
+      Top = 27
+      Width = 262
+      Height = 40
+      Caption = 'Cadastro de Clientes'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -29
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+end

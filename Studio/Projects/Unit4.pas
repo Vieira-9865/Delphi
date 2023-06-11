@@ -1,0 +1,96 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TForm4 = class(TForm)
+    TituloMenu: TLabel;
+    Painel: TPanel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Dados: TPageControl;
+    TabSh: TTabSheet;
+    Label1: TLabel;
+    Edit1: TEdit;
+    Label2: TLabel;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    ComboBox1: TComboBox;
+    Label5: TLabel;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Edit7: TEdit;
+    Edit8: TEdit;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Edit9: TEdit;
+    Edit10: TEdit;
+    Edit11: TEdit;
+    Edit12: TEdit;
+    Edit13: TEdit;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    CheckBox1: TCheckBox;
+    Label15: TLabel;
+    Edit14: TEdit;
+    Edit15: TEdit;
+    Label16: TLabel;
+    GroupBox1: TGroupBox;
+    ComboBox2: TComboBox;
+    Edit16: TEdit;
+    Edit17: TEdit;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    TabSheet1: TTabSheet;
+    TabSheet2: TTabSheet;
+    Edit18: TEdit;
+    Label20: TLabel;
+    Label21: TLabel;
+    Edit19: TEdit;
+    Edit20: TEdit;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label24: TLabel;
+    Edit22: TEdit;
+    Edit21: TEdit;
+    Label25: TLabel;
+    Edit23: TEdit;
+    Label26: TLabel;
+    Edit24: TEdit;
+    Label27: TLabel;
+    Edit25: TEdit;
+    Label28: TLabel;
+    Edit26: TEdit;
+    Label29: TLabel;
+    Edit27: TEdit;
+    Label30: TLabel;
+    Memo1: TMemo;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+end.
