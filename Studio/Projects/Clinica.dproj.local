@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/13 22:39:04.000.686,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/06/13 22:39:18.000.763,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Clinica.dproj</Transaction>
+    <Transaction>2023/06/13 22:39:46.000.652,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitMenuClinica.dfm</Transaction>
+    <Transaction>2023/06/13 22:39:46.000.652,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitMenuClinica.pas</Transaction>
+    <Transaction>2023/06/13 22:39:49.000.839,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Clinica.dproj=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Clinica.dproj</Transaction>
+    <Transaction>2023/06/14 14:20:06.091,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/14 14:20:43.264,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2023/06/14 14:20:49.175,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2023/06/14 14:21:13.051,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitCadAgendamentos.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit9.pas</Transaction>
+    <Transaction>2023/06/14 14:21:13.051,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitCadAgendamentos.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit9.dfm</Transaction>
+    <Transaction>2023/06/14 14:21:34.479,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitCadPacientes.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2023/06/14 14:21:34.479,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitCadPacientes.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit8.dfm</Transaction>
+    <Transaction>2023/06/14 14:59:06.407,=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2023/06/14 15:06:36.614,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitDMClinica.dfm=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2023/06/14 15:06:36.614,C:\Users\vitor\Documents\Embarcadero\Studio\Projects\UnitDMClinica.pas=C:\Users\vitor\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+  </Transactions>
+</BorlandProject>

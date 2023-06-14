@@ -14,6 +14,7 @@ object DM: TDM
   end
   object TBContatos: TFDTable
     Active = True
+    AfterInsert = TBContatosAfterInsert
     IndexFieldNames = 'id'
     Connection = Conexao
     ResourceOptions.AssignedValues = [rvEscapeExpand]
@@ -23,6 +24,7 @@ object DM: TDM
     object TBContatosid: TFDAutoIncField
       FieldName = 'id'
       Origin = 'id'
+      ReadOnly = True
     end
     object TBContatosnome: TStringField
       AutoGenerateValue = arDefault

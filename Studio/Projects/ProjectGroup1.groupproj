@@ -21,6 +21,9 @@
         <Projects Include="Agenda_Contatos.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Clinica.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -83,14 +86,23 @@
     <Target Name="Agenda_Contatos:Make">
         <MSBuild Projects="Agenda_Contatos.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Clinica">
+        <MSBuild Projects="Clinica.dproj"/>
+    </Target>
+    <Target Name="Clinica:Clean">
+        <MSBuild Projects="Clinica.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Clinica:Make">
+        <MSBuild Projects="Clinica.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ComponentesContainer;Primeiro_Sistema;CadastroLivro;Menu;TelaCadastroCompleta;Agenda_Contatos"/>
+        <CallTarget Targets="ComponentesContainer;Primeiro_Sistema;CadastroLivro;Menu;TelaCadastroCompleta;Agenda_Contatos;Clinica"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ComponentesContainer:Clean;Primeiro_Sistema:Clean;CadastroLivro:Clean;Menu:Clean;TelaCadastroCompleta:Clean;Agenda_Contatos:Clean"/>
+        <CallTarget Targets="ComponentesContainer:Clean;Primeiro_Sistema:Clean;CadastroLivro:Clean;Menu:Clean;TelaCadastroCompleta:Clean;Agenda_Contatos:Clean;Clinica:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ComponentesContainer:Make;Primeiro_Sistema:Make;CadastroLivro:Make;Menu:Make;TelaCadastroCompleta:Make;Agenda_Contatos:Make"/>
+        <CallTarget Targets="ComponentesContainer:Make;Primeiro_Sistema:Make;CadastroLivro:Make;Menu:Make;TelaCadastroCompleta:Make;Agenda_Contatos:Make;Clinica:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

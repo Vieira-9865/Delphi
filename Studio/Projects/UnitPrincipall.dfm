@@ -2,7 +2,7 @@ object Form6: TForm6
   Left = 0
   Top = 0
   Caption = 'Form6'
-  ClientHeight = 753
+  ClientHeight = 750
   ClientWidth = 944
   Color = clWindow
   Ctl3D = False
@@ -56,10 +56,17 @@ object Form6: TForm6
   object DBText1: TDBText
     Left = 64
     Top = 528
-    Width = 65
+    Width = 209
     Height = 17
     DataField = 'data'
     DataSource = DM.dsContatos
+  end
+  object Label3: TLabel
+    Left = 456
+    Top = 104
+    Width = 101
+    Height = 15
+    Caption = 'Busca de Contatos:'
   end
   object NomeEdit: TDBEdit
     Left = 62
@@ -105,5 +112,58 @@ object Form6: TForm6
     Height = 25
     DataSource = DM.dsContatos
     TabOrder = 4
+  end
+  object DBGrid1: TDBGrid
+    Left = 456
+    Top = 152
+    Width = 305
+    Height = 362
+    DataSource = DM.dsContatos
+    TabOrder = 5
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Segoe UI'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'nome'
+        Title.Caption = 'Contatos Cadastrados'
+        Title.Font.Charset = DEFAULT_CHARSET
+        Title.Font.Color = clWindowText
+        Title.Font.Height = -12
+        Title.Font.Name = 'Segoe UI'
+        Title.Font.Style = [fsBold]
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'celular'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'bloqueado'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'data'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'observacoes'
+        Visible = True
+      end>
+  end
+  object txtBusca: TEdit
+    Left = 456
+    Top = 125
+    Width = 305
+    Height = 21
+    TabOrder = 6
+    OnChange = txtBuscaChange
   end
 end
